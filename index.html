@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>API VALORANT (NÃO-OFICIAL)</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="container-fluid title-background">
+        <p class="title-api">API DE VALORANT</p>
+      </div>
+      <section class="container-fluid bg-dark-valorant">
+        <div class="explain-api-container container center">
+          <div class="logoNameValorant">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              height="55"
+              viewBox="0 0 100 100"
+              width="55"
+            >
+              <path
+                d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z"
+                fill="#fff"
+              ></path>
+            </svg>
+            <h3>apivalorantgame</h3>
+          </div>
+
+          <div class="descriptionApi">
+            Api de Valorant (não-oficial) com muitas informações sobre o jogo de
+            FPS da Riot Games
+          </div>
+          <div class="container">
+            <div class="container-all-info-api">
+              <p class="fs-2">Se quiser ver todas as informações da API</p>
+
+              <div class="linkAPI">
+                <div class="container">
+                  <p class="fs-4 linkGet">
+                    <span>GET:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/info
+                  </p>
+                </div>
+              </div>
+
+              <p class="fs-2">Se quiser ver todos os personagens</p>
+              <div class="linkAPI">
+                <div class="container">
+                  <p class="fs-4 linkGet">
+                    <span>GET:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/characters
+                  </p>
+                </div>
+                <p class="anotherOption">
+                  Se quiser ver um personagem específico, digite seu ID em
+                  frente "characters".
+                </p>
+                <p>Atualmente são 21 Personagens!</p>
+                <div class="container">
+                  <p class="option">
+                    <span>EX:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/characters/1
+                  </p>
+                </div>
+              </div>
+
+              <p class="fs-2">Se quiser ver todas as armas</p>
+              <div class="linkAPI">
+                <div class="container">
+                  <p class="fs-4 linkGet">
+                    <span>GET:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/guns
+                  </p>
+                </div>
+                <p class="anotherOption">
+                  Se quiser ver uma arma específica, digite seu id em frente a
+                  subcategoria.
+                </p>
+                <p>A primeira arma em cada subcategoria começa com o ID = 1</p>
+                <div class="container">
+                  <p class="option">
+                    <span>EX:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/pistols/1
+                  </p>
+                  <p class="option">
+                    <span>EX:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/submachine/1
+                  </p>
+                </div>
+              </div>
+
+              <p class="fs-2">Se quiser ver todos os mapas</p>
+              <div class="linkAPI">
+                <div class="container">
+                  <p class="fs-4 linkGet">
+                    <span>GET:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/maps
+                  </p>
+                </div>
+                <p class="anotherOption">
+                  Se quiser ver um mapa específico, digite seu ID em frente
+                  "tomap"
+                </p>
+                <p>Atualmente são 8 mapas!</p>
+                <div class="container">
+                  <p class="option">
+                    <span>EX:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/tomap/1
+                  </p>
+                  <p class="option">
+                    <span>EX:</span
+                    >&nbsp;&nbsp;https://apivalorantgame.herokuapp.com/tomap/3
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid center">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        height="55"
+        viewBox="0 0 100 100"
+        width="55"
+      >
+        <path
+          d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z"
+          fill="#fff"
+        ></path>
+      </svg>
+      <h4>apivalorantgame</h4>
+      <p>@viniciuskauandev</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

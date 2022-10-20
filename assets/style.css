@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font_default_api);
+}
+
+body {
+  background-color: var(--bg_dark_valorant);
+}
+
+:root {
+  --vermelho_valorant: #fa2e3f;
+  --bg_dark_valorant: #0f1923;
+  --bg_dark_links: #002347;
+  --font_color: #ffffff;
+  --font_default_api: "Sarala";
+}
+
+.main-container {
+  width: 100%;
+}
+
+.title-background {
+  background-color: var(--vermelho_valorant);
+  padding: 4.5em;
+  color: var(--font_color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-background p {
+  font-size: 6.5rem;
+  font-weight: bolder;
+}
+
+section {
+  background-color: var(--bg_dark_valorant);
+}
+
+.logoNameValorant {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding-top: 1.5em;
+}
+
+h3 {
+  color: var(--vermelho_valorant);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descriptionApi {
+  padding-top: 1.5em;
+  color: var(--font_color);
+  padding-bottom: 1.5rem;
+}
+
+.container-all-info-api {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.container-all-info-api .fs-2 {
+  color: var(--vermelho_valorant);
+}
+.linkAPI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background-color: var(--bg_dark_links);
+  border-radius: 7px;
+  flex-direction: column;
+}
+.linkAPI span {
+  color: var(--vermelho_valorant);
+}
+.linkAPI p {
+  color: var(--font_color);
+}
+
+.linkAPI .option {
+  color: rgb(190, 173, 19);
+}
+
+.linkAPI:last-child {
+  margin-bottom: 33px;
+}
+
+.anotherOption {
+  color: goldenrod !important;
+}
+
+footer {
+  background-color: var(--vermelho_valorant);
+}
+
+h4 {
+  color: var(--font_color);
+}
+
+@media screen and (max-width: 767px) {
+  .linkAPI {
+    overflow-x: scroll;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 567px) {
+  .container-all-info-api > .underline {
+    font-size: 1.3rem !important;
+  }
+  .title-background p {
+    font-size: 5.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title-background p {
+    font-size: 4.2rem;
+  }
+}
+@media screen and (max-width: 385px) {
+  .title-background p {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 352px) {
+  .title-background p {
+    font-size: 3.2rem;
+  }
+}
